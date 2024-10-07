@@ -1,1 +1,48 @@
-/*# sourceMappingURL=Header.css.map */
+.Header {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+.Header .logo {
+  width: 126px;
+}
+.Header .header_rightSide {
+  width: 756px;
+  display: flex;
+  justify-content: space-between;
+}
+.Header .header_rightSide .nav {
+  width: 432px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Header .header_rightSide .nav li {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 15px;
+  color: #1B1B1D;
+}
+.Header .header_rightSide .cartBtn {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #fff;
+}
+.Header .header_rightSide .buyBtn {
+  width: 208px;
+  height: 56px;
+  background-color: #1B1B1D;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Jost";
+}/*# sourceMappingURL=Header.css.map */
