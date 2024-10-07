@@ -3,6 +3,11 @@ import Header from './Components/Header/Header';
 import mainCoffeeCup from './assets/main screen coffee cup.png'
 import starSvg from './assets/star.svg'
 import cafeAward from './assets/cafe award.png'
+import Explore_card from './Components/Explore_card/Explore_card';
+import card1Img from './assets/card img 1.png'
+import card2Img from './assets/card img 2.png'
+import card3Img from './assets/card img 3.png'
+
 function App() {
 
   return (
@@ -40,7 +45,9 @@ function App() {
           <div className="explore_title">Explore Our Alowishus</div>
           <div className="explore_subtitle">A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</div>
         </div>
-        <div className="explore_cards"></div>
+        <div className="explore_cards">
+          <Explore_card title="Our Catering" subtitle="Alowishus Catering, delicious drop off Catering" img={card1Img} btnText="Order cathering" />
+        </div>
       </div>
     </div>
     </>
