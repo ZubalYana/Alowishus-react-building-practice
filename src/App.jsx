@@ -12,8 +12,8 @@ function App() {
         <Header />
         <div className="mainPage_content">
           <div className="main_leftPart">
-            <h1 className='main_title'>Alowishus <br /> Delicious <br />Coffee </h1>
-            <h4 className='main_subtitle'>A drink from the ‘My Alowishus’ bottled brews <br /> range OR grab one of our delicious coffee’s.</h4>
+            <h1 className='main_title'>Alowishus <br /> Delicious <br />Coffee <img id='main_leftPart_coffeeAward' src={cafeAward} alt="" /></h1>
+            <h4 className='main_subtitle'>A drink from the ‘My Alowishus’ bottled brews <br /> range OR grab one of our delicious coffee’s. </h4>
             <div className="main_buttons">
               <div className="downloadBtn">Download App</div>
               <div className="shopCoffeeBtn">Shop Coffee <div className="shopCoffeeBtnHr"></div></div>
