@@ -17,11 +17,13 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            list-style: none;
             li{
                 font-family: 'Jost';
                 font-weight: 500;
                 font-size: 15px;
                 color: #1B1B1D;
+                cursor: pointer;
             }
         }
         .cartBtn{
@@ -30,7 +32,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border: #fff;
+            background-color: #fff;
+            border-radius: 50%;
         }
         .buyBtn{
             width: 208px;
@@ -43,6 +46,7 @@
             font-size: 15px;
             font-weight: 500;
             font-family: 'Jost';
+            border-radius: 63px;
         }
     }
 }
