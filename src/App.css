@@ -142,6 +142,7 @@
   height: 100vh;
   background-color: #F3F4F5;
   padding: 40px 100px;
+  position: relative;
 }
 .explore_cards{
   width: 100%;
@@ -169,5 +170,11 @@
   font-family: 'Jost';
   width: 550px;
   text-align: center;
+}
+.explore_coffeeImg{
+  position: absolute;
+  left: 0;
+  width: 300px;
+  top: 0;
 }
 /* explore page */

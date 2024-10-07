@@ -7,7 +7,7 @@ import Explore_card from './Components/Explore_card/Explore_card';
 import card1Img from './assets/card img 1.png'
 import card2Img from './assets/card img 2.png'
 import card3Img from './assets/card img 3.png'
-
+import exploreCoffee from './assets/exploring screen coffee cup.png'
 function App() {
 
   return (
@@ -41,6 +41,7 @@ function App() {
         </div>
       </div>
       <div className="explorePage">
+        <img className='explore_coffeeImg' src={exploreCoffee} alt="" />
         <div className="explore_text">
           <div className="explore_title">Explore Our Alowishus</div>
           <div className="explore_subtitle">A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</div>
