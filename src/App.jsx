@@ -1,5 +1,7 @@
 import './App.css'
 import Header from './Components/Header/Header';
+import mainCoffeeCup from './assets/main screen coffee cup.png'
+import starSvg from './assets/star.svg'
 function App() {
 
   return (
@@ -14,6 +16,20 @@ function App() {
             <div className="main_buttons">
               <div className="downloadBtn">Download App</div>
               <div className="shopCoffeeBtn">Shop Coffee <div className="shopCoffeeBtnHr"></div></div>
+            </div>
+          </div>
+          <div className="main_rightPart">
+            <img className='main_coffeeCup' src={mainCoffeeCup} alt="" />
+            <div className="main_comment">
+              <div className="starsCon">
+              <img src={starSvg} alt="" />
+              <img src={starSvg} alt="" />
+              <img src={starSvg} alt="" />
+              <img src={starSvg} alt="" />
+              <img src={starSvg} alt="" />
+              </div>
+              <p>4.9 out of 5 Overall Star Rating for All Local Business.</p>
+
             </div>
           </div>
         </div>
