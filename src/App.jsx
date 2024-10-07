@@ -2,6 +2,7 @@ import './App.css'
 import Header from './Components/Header/Header';
 import mainCoffeeCup from './assets/main screen coffee cup.png'
 import starSvg from './assets/star.svg'
+import cafeAward from './assets/cafe award.png'
 function App() {
 
   return (
@@ -29,8 +30,8 @@ function App() {
               <img src={starSvg} alt="" />
               </div>
               <p>4.9 out of 5 Overall Star Rating for All Local Business.</p>
-
             </div>
+            <img id='main_coffeeAwardRightPart' src={cafeAward} alt="" />
           </div>
         </div>
       </div>

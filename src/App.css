@@ -123,3 +123,9 @@
   color: #64646A;
   margin-top: 10px;
 }
+#main_coffeeAwardRightPart{
+  position: absolute;
+  width: 144px;
+  top: 70px;
+  left: 600px;
+}
