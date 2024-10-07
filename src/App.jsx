@@ -41,12 +41,14 @@ function App() {
         </div>
       </div>
       <div className="explorePage">
-        <div className="text">
+        <div className="explore_text">
           <div className="explore_title">Explore Our Alowishus</div>
           <div className="explore_subtitle">A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</div>
         </div>
         <div className="explore_cards">
           <Explore_card title="Our Catering" subtitle="Alowishus Catering, delicious drop off Catering" img={card1Img} btnText="Order cathering" />
+          <Explore_card title="The Food" subtitle="Our entire menu is available as dine in or takeaway." img={card2Img} btnText="food menu" />
+          <Explore_card title="The Gelato" subtitle="Life is like GELATO, enjoy it before it melts." img={card3Img} btnText="Discover more" />
         </div>
       </div>
     </div>
