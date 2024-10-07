@@ -1,11 +1,13 @@
 .Explore_card{
     width: 393px;
-    height: 540px;
-    padding: 40px;
+    height: 450px;
+    padding: 30px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Jost';
+    border-radius: 24px;
 }
 .Explore_card_text{
     width: 100%;
@@ -16,13 +18,15 @@
     color: #1B1B1D;
 }
 .Explore_card_subtitle{
-    font-size: 24px;
+    width: 80%;
+    font-size: 20px;
     font-weight: 400;
     color: #64646A;
 }
 
 img{
     width: 150px;
+    margin: 30px 0;
 }
 .Explore_cardBtn{
     width: 225px;
@@ -36,4 +40,12 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 126px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.Explore_cardBtn:hover{
+    background-color: #fff;
+    color: #1B1B1D;
+    border: 2px solid #1B1B1D;
 }
