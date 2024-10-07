@@ -35,6 +35,13 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="explorePage">
+        <div className="text">
+          <div className="explore_title">Explore Our Alowishus</div>
+          <div className="explore_subtitle">A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</div>
+        </div>
+        <div className="explore_cards"></div>
+      </div>
     </div>
     </>
   )
