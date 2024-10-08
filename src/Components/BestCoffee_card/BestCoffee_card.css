@@ -1,1 +1,29 @@
-/*# sourceMappingURL=BestCoffee_card.css.map */
+.BestCoffeeCard {
+  width: 370px;
+  height: 410px;
+  background-color: #fff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.BestCoffeeCard .card_topPart {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.BestCoffeeCard .card_topPart .imgCon {
+  width: 50%;
+  position: relative;
+  height: 100%;
+}
+.BestCoffeeCard .card_topPart .imgCon .card_img {
+  width: 186px;
+  position: absolute;
+  top: -90px;
+  left: -30px;
+}
+.BestCoffeeCard .card_topPart .card_topText {
+  width: 50%;
+}/*# sourceMappingURL=BestCoffee_card.css.map */

@@ -267,4 +267,11 @@
   text-align: center;
   margin-top: 10px;
 }
+.bestSellings_cardsContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  margin-top: 70px;
+}
 /* bestSellings page */
