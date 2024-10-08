@@ -8,6 +8,7 @@ import card1Img from './assets/card img 1.png'
 import card2Img from './assets/card img 2.png'
 import card3Img from './assets/card img 3.png'
 import exploreCoffee from './assets/exploring screen coffee cup.png'
+import orderCoffee from './assets/order your coffee cups img.png'
 function App() {
 
   return (
@@ -50,6 +51,11 @@ function App() {
           <Explore_card title="Our Catering" subtitle="Alowishus Catering, delicious drop off Catering" img={card1Img} btnText="Order cathering" />
           <Explore_card title="The Food" subtitle="Our entire menu is available as dine in or takeaway." img={card2Img} btnText="food menu" />
           <Explore_card title="The Gelato" subtitle="Life is like GELATO, enjoy it before it melts." img={card3Img} btnText="Discover more" />
+        </div>
+      </div>
+      <div className="orderScreen">
+        <div className="leftPart">
+          <img className='order_coffeeCups' src={orderCoffee} alt="" />
         </div>
       </div>
     </div>

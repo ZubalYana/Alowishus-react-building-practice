@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 .wrap{
   width: 100%;
@@ -178,3 +179,21 @@
   top: 0;
 }
 /* explore page */
+
+/* orderCoffee page */
+.orderScreen{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #F3F4F5;
+}
+.leftPart{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order_coffeeCups{
+  width: 807px;
+}
+/* orderCoffee page */
