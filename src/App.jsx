@@ -57,6 +57,11 @@ function App() {
         <div className="leftPart">
           <img className='order_coffeeCups' src={orderCoffee} alt="" />
         </div>
+        <div className="rightPart">
+          <div className="ordering_title">Order Your Favourite Coffee</div>
+          <div className="ordering_text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</div>
+          <div className="orderingBtn">Order Now</div>
+        </div>
       </div>
     </div>
     </>
