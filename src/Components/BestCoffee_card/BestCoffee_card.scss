@@ -38,5 +38,44 @@
                 margin-top: 10px;
             }
         }
+
+    }
+    .card_text{
+        font-size: 18px;
+        font-weight: 400;
+        color: #64646A;
+        margin-top: 15px;
+    }
+    .card_priceBtnCon{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        .card_coffeePrice{
+            color: #1B1B1D;
+            font-size: 30px;
+            font-weight: 500;
+        }
+        .card_orderBtn{
+            width: 171px;
+            height: 60px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 126px;
+            background-color: #1B1B1D;
+            cursor: pointer;
+            transition: 0.4s ease-in-out;
+        }
+        .card_orderBtn:hover{
+            color: #1B1B1D;
+            background-color: #fff;
+            border: 2px solid #1B1B1D;
+        }
     }
 }
