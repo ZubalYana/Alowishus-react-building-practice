@@ -26,4 +26,16 @@
 }
 .BestCoffeeCard .card_topPart .card_topText {
   width: 50%;
+}
+.BestCoffeeCard .card_topPart .card_topText .card_numberSelling {
+  color: #64646A;
+  font-size: 20px;
+  font-weight: 500;
+}
+.BestCoffeeCard .card_topPart .card_topText .card_coffeeName {
+  color: #1B1B1D;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.2;
+  margin-top: 10px;
 }/*# sourceMappingURL=BestCoffee_card.css.map */
