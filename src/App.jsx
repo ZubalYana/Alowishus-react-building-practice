@@ -9,6 +9,10 @@ import card2Img from './assets/card img 2.png'
 import card3Img from './assets/card img 3.png'
 import exploreCoffee from './assets/exploring screen coffee cup.png'
 import orderCoffee from './assets/order your coffee cups img.png'
+import BestCoffee_card from './Components/BestCoffee_card/BestCoffee_card';
+import doubleExpresso from './assets/double expresso.png'
+import caramelFrappe from './assets/caramel frappe.png'
+import icedCoffee from './assets/iced coffee.png'
 function App() {
 
   return (
@@ -66,6 +70,11 @@ function App() {
       <div className="bestSellingScreen">
         <div className="bestSelling_title">Best Selling Coffee</div>
         <div className="bestSelling_subtitle">A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</div>
+        <div className="bestSellings_cardsContainer">
+          <BestCoffee_card img={doubleExpresso} numberSelling="#1 Selling" coffeeName="Double Espresso" />
+          <BestCoffee_card img={caramelFrappe} numberSelling="#2 Selling" coffeeName="Caramel Frappe" />
+          <BestCoffee_card img={icedCoffee} numberSelling="#3 Selling" coffeeName="Iced Coffee" />
+        </div>
       </div>
     </div>
     </>
