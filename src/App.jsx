@@ -63,6 +63,10 @@ function App() {
           <div className="orderingBtn">Order Now</div>
         </div>
       </div>
+      <div className="bestSellingScreen">
+        <div className="bestSelling_title">Best Selling Coffee</div>
+        <div className="bestSelling_subtitle">A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</div>
+      </div>
     </div>
     </>
   )
