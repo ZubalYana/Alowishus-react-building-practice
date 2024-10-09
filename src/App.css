@@ -275,3 +275,54 @@
   margin-top: 80px;
 }
 /* bestSellings page */
+
+/* instantCoffee page */
+.instantCoffee{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 0 100px;
+  background-color: #F3F4F5;
+}
+.instantCoffee_leftPart{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.instantCoffee_leftPart_title{
+  font-size: 48px;
+  font-weight: 800;
+  color: #1B1B1D;
+  line-height: 1.2;
+}
+.instantCoffee_leftPart_subtitle{
+  font-size: 22px;
+  font-weight: 400;
+  color: #64646A;
+  width: 500px;
+  margin-top: 10px;
+}
+.instantCoffee_leftPartBtn{
+  width: 267px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  background-color: #1B1B1D;
+  color: #F3F4F5;
+  border-radius: 126px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.instantCoffee_leftPartBtn:hover{
+  background-color: #F3F4F5;
+  color: #1B1B1D;
+  border: 2px solid #1B1B1D;
+}
+/* instantCoffee page */

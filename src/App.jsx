@@ -76,6 +76,13 @@ function App() {
           <BestCoffee_card img={icedCoffee} numberSelling="#3 Selling" coffeeName="Iced Coffee" />
         </div>
       </div>
+      <div className="instantCoffee">
+        <div className="instantCoffee_leftPart">
+          <div className="instantCoffee_leftPart_title">Instant Coffee <br /> At Your Home</div>
+          <div className="instantCoffee_leftPart_subtitle">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </div>
+          <div className="instantCoffee_leftPartBtn">Download our app</div>
+        </div>
+      </div>
     </div>
     </>
   )
