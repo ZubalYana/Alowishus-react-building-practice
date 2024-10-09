@@ -15,6 +15,9 @@ import caramelFrappe from './assets/caramel frappe.png'
 import icedCoffee from './assets/iced coffee.png'
 import instantCoffee from './assets/instant coffee cards.png'
 import instantCoffee_decoration from './assets/instant coffee decoration cup.png'
+import CustomersReviewCard from './Components/CustomersReviewCard/CustomersReviewCard';
+import customer1Img from './assets/customer1Img.png'
+import customer2Img from './assets/customer2Img.png'
 function App() {
 
   return (
@@ -89,7 +92,10 @@ function App() {
           <img className='instantCoffee_rightPart_img' src={instantCoffee} alt="" />
         </div>
       </div>
-      <div className="customersViews"></div>
+      <div className="customersViews">
+        <CustomersReviewCard img={customer1Img} name={"Brooklyn Simmons"}></CustomersReviewCard>
+        <CustomersReviewCard img={customer2Img} name={"Imam White"}></CustomersReviewCard>
+      </div>
     </div>
     </>
   )

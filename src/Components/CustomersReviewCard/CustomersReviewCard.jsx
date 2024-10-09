@@ -1,5 +1,6 @@
 import React from "react";
 import "./CustomersReviewCard.css";
+import reviewStarSvg from '../../assets/reviewStar.svg'
 
 export default function CustomersReviewCard({img, name}){
     return(
@@ -10,11 +11,11 @@ export default function CustomersReviewCard({img, name}){
             <div className="nameAndRating">
                 <h3 className="customersReview_name">{name}</h3>
                 <div className="starsCon">
-                    <img src={starSvg} alt="star" />
-                    <img src={starSvg} alt="star" />
-                    <img src={starSvg} alt="star" />
-                    <img src={starSvg} alt="star" />
-                    <img src={starSvg} alt="star" />
+                    <img src={reviewStarSvg} alt="star" />
+                    <img src={reviewStarSvg} alt="star" />
+                    <img src={reviewStarSvg} alt="star" />
+                    <img src={reviewStarSvg} alt="star" />
+                    <img src={reviewStarSvg} alt="star" />
                 </div>
             </div>
             <div className="reviewText">
