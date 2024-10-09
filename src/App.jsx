@@ -89,6 +89,7 @@ function App() {
           <img className='instantCoffee_rightPart_img' src={instantCoffee} alt="" />
         </div>
       </div>
+      <div className="customersViews"></div>
     </div>
     </>
   )

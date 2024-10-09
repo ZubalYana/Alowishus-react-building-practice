@@ -341,3 +341,13 @@
   width: 176px;
 }
 /* instantCoffee page */
+
+/* customersViews page */
+.customersViews{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #F3F4F5;
+}
+
+/* customersViews page */
