@@ -13,7 +13,8 @@ import BestCoffee_card from './Components/BestCoffee_card/BestCoffee_card';
 import doubleExpresso from './assets/double expresso.png'
 import caramelFrappe from './assets/caramel frappe.png'
 import icedCoffee from './assets/iced coffee.png'
-import instandCoffee from './assets/instant coffee cards.png'
+import instantCoffee from './assets/instant coffee cards.png'
+import instantCoffee_decoration from './assets/instant coffee decoration cup.png'
 function App() {
 
   return (
@@ -78,13 +79,14 @@ function App() {
         </div>
       </div>
       <div className="instantCoffee">
+        <img className='instantCoffee_decoration' src={instantCoffee_decoration} alt="" />
         <div className="instantCoffee_leftPart">
           <div className="instantCoffee_leftPart_title">Instant Coffee <br /> At Your Home</div>
           <div className="instantCoffee_leftPart_subtitle">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. </div>
           <div className="instantCoffee_leftPartBtn">Download our app</div>
         </div>
         <div className="instantCoffee_rightPart">
-          <img className='instantCoffee_rightPart_img' src={instandCoffee} alt="" />
+          <img className='instantCoffee_rightPart_img' src={instantCoffee} alt="" />
         </div>
       </div>
     </div>

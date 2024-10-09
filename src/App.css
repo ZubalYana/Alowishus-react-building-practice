@@ -335,4 +335,9 @@
 .instantCoffee_rightPart_img{
   width: 700px;
 }
+.instantCoffee_decoration{
+  position: absolute;
+  left: 0;
+  width: 176px;
+}
 /* instantCoffee page */
