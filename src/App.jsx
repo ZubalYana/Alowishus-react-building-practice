@@ -19,7 +19,7 @@ import CustomersReviewCard from './Components/CustomersReviewCard/CustomersRevie
 import customer1Img from './assets/customer1Img.png'
 import customer2Img from './assets/customer2Img.png'
 import reviewStarSvg from './assets/reviewStar.svg'
-
+import customersDecoration from './assets/customers decoration.png'
 function App() {
 
   return (
@@ -95,6 +95,7 @@ function App() {
         </div>
       </div>
       <div className="customersViews">
+        <img className='customersDecoration' src={customersDecoration} alt="" />
         <div className="viewsContainer">
         <CustomersReviewCard id="customer1" img={customer1Img} name={"Brooklyn Simmons"}></CustomersReviewCard>
         <CustomersReviewCard id="customer2" img={customer2Img} name={"Imam White"}></CustomersReviewCard>
@@ -112,6 +113,21 @@ function App() {
                 <img src={reviewStarSvg} alt="star" />
               </div>
               <div className="statictis">based on 2452+ reviews</div>
+            </div>
+          </div>
+          <div className="arrowsCon">
+            <div className="arrow">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23.75 15H6.25" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 6.25L6.25 15L15 23.75" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+            </div>
+            <div className="arrow">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.25 15H23.75" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M15 6.25L23.75 15L15 23.75" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
             </div>
           </div>
         </div>
