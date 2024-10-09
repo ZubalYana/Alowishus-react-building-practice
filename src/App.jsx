@@ -93,8 +93,10 @@ function App() {
         </div>
       </div>
       <div className="customersViews">
-        <CustomersReviewCard img={customer1Img} name={"Brooklyn Simmons"}></CustomersReviewCard>
-        <CustomersReviewCard img={customer2Img} name={"Imam White"}></CustomersReviewCard>
+        <div className="viewsContainer">
+        <CustomersReviewCard id="customer1" img={customer1Img} name={"Brooklyn Simmons"}></CustomersReviewCard>
+        <CustomersReviewCard id="customer2" img={customer2Img} name={"Imam White"}></CustomersReviewCard>
+        </div>
       </div>
     </div>
     </>
