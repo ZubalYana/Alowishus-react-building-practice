@@ -18,6 +18,8 @@ import instantCoffee_decoration from './assets/instant coffee decoration cup.png
 import CustomersReviewCard from './Components/CustomersReviewCard/CustomersReviewCard';
 import customer1Img from './assets/customer1Img.png'
 import customer2Img from './assets/customer2Img.png'
+import reviewStarSvg from './assets/reviewStar.svg'
+
 function App() {
 
   return (
@@ -96,6 +98,22 @@ function App() {
         <div className="viewsContainer">
         <CustomersReviewCard id="customer1" img={customer1Img} name={"Brooklyn Simmons"}></CustomersReviewCard>
         <CustomersReviewCard id="customer2" img={customer2Img} name={"Imam White"}></CustomersReviewCard>
+        </div>
+        <div className="textContainer">
+          <div className="customers_title">What Our <br /> Customers Say</div>
+          <div className="ratingCon">
+            <div className="rating">4.9</div>
+            <div className="startAndStatistic">
+              <div className="stars">
+                <img src={reviewStarSvg} alt="star" />
+                <img src={reviewStarSvg} alt="star" />
+                <img src={reviewStarSvg} alt="star" />
+                <img src={reviewStarSvg} alt="star" />
+                <img src={reviewStarSvg} alt="star" />
+              </div>
+              <div className="statictis">based on 2452+ reviews</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

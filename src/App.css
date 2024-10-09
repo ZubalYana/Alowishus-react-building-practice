@@ -360,3 +360,43 @@
   position: absolute;
   left: -180px;
 }
+.textContainer{
+  width: 45%;
+  height: 600px;
+  position: absolute;
+  right: 0;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.customers_title{
+  font-size: 48px;
+  font-weight: 800;
+  color: #1B1B1D;
+  margin-bottom: 40px;
+}
+.ratingCon{
+  display: flex;
+  align-items: center;
+}
+.rating{
+  color: #1B1B1D;
+  font-size: 40px;
+  font-weight: 600;
+}
+.statictis{
+  font-size: 20px;
+  font-weight: 400;
+  color: #64646A;
+}
+.startAndStatistic{
+  margin-left: 12px;
+}
+.stars{
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+/* customersViews page */
+
