@@ -8,6 +8,7 @@ export default function CustomersReviewCard({img, name}){
             <div className="imgCon">
                 <img className="customersReview_img" src={img} alt="" />
             </div>
+            <div className="textCon">
             <div className="nameAndRating">
                 <h3 className="customersReview_name">{name}</h3>
                 <div className="starsCon">
@@ -21,6 +22,8 @@ export default function CustomersReviewCard({img, name}){
             <div className="reviewText">
             “Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”
             </div>
+            </div>
+
         </div>
     )
 }
