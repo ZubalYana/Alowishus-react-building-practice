@@ -134,6 +134,7 @@ function App() {
         </div>
       </div>
       <div className="futer">
+        <div className="futer_parts">
         <div className="footer_left">
           <div className="footerText">
             <img className='futer_logo' src={logo} alt="" />
@@ -153,7 +154,7 @@ function App() {
         </div>
         <div className="footer_right">
           <div className="contacts">
-            <div className="contacts_title">Contacts</div>
+            <div className="contacts_title">Contact Alowishus!</div>
             <div className="contact">
               <div className="mediaIcon"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M18.1429 15.1621L15.7978 17.5151C14.8469 18.4694 13.1736 18.49 12.2021 17.5151L9.85695 15.1621L1.4342 23.6122C1.74773 23.7572 2.09341 23.8437 2.46091 23.8437H25.539C25.9065 23.8437 26.2521 23.7573 26.5655 23.6123L18.1429 15.1621Z" fill="#64646A"/>
@@ -205,6 +206,8 @@ function App() {
             <div className="newSlatterBtn">Subscribe</div>
           </div>
         </div>
+        </div>
+
         <div className="futer_bottom">
           <hr />
           <div className="futer_bottomInfo">
