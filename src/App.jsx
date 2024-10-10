@@ -20,6 +20,7 @@ import customer1Img from './assets/customer1Img.png'
 import customer2Img from './assets/customer2Img.png'
 import reviewStarSvg from './assets/reviewStar.svg'
 import customersDecoration from './assets/customers decoration.png'
+import logo from './assets/logo.png'
 function App() {
 
   return (
@@ -197,6 +198,18 @@ function App() {
 
               </div>
             </div>
+          </div>
+          <div className="newslatter">
+            <div className="newslatterTitle">First One’s On Us!</div>
+            <input type="text" placeholder='Email' className='newslatterInput' />
+            <div className="newSlatterBtn">Subscribe</div>
+          </div>
+        </div>
+        <div className="futer_bottom">
+          <hr />
+          <div className="futer_bottomInfo">
+            <div className="copyRight">Copytright © 2022 Alowishus Delicious</div>
+            <div className="privacyPolicy">Terms of Use | Privacy Policy</div>
           </div>
         </div>
       </div>
